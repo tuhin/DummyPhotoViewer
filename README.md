@@ -11,3 +11,4 @@ Option: Zoom in on photos
 
 GIF walkthrough of all required and optional stories (using LiceCap)
 ![](https://dl.dropboxusercontent.com/u/2800293/fbphoto.gif)
+[link](https://dl.dropboxusercontent.com/u/2800293/fbphoto.gif)
