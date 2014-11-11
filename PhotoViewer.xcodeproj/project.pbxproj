@@ -13,6 +13,8 @@
 		0AAEE0E61A11AEE0002177B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAEE0E51A11AEE0002177B5 /* Images.xcassets */; };
 		0AAEE0E91A11AEE0002177B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AAEE0E71A11AEE0002177B5 /* LaunchScreen.xib */; };
 		0AAEE0F51A11AEE0002177B5 /* PhotoViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEE0F41A11AEE0002177B5 /* PhotoViewerTests.swift */; };
+		0AAEE0FF1A11B028002177B5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEE0FE1A11B028002177B5 /* FeedViewController.swift */; };
+		0AAEE1011A11B707002177B5 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAEE1001A11B707002177B5 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0AAEE0EE1A11AEE0002177B5 /* PhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAEE0F31A11AEE0002177B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AAEE0F41A11AEE0002177B5 /* PhotoViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerTests.swift; sourceTree = "<group>"; };
+		0AAEE0FE1A11B028002177B5 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0AAEE1001A11B707002177B5 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				0AAEE0DE1A11AEE0002177B5 /* AppDelegate.swift */,
 				0AAEE0E01A11AEE0002177B5 /* ViewController.swift */,
 				0AAEE0E21A11AEE0002177B5 /* Main.storyboard */,
+				0AAEE1001A11B707002177B5 /* PhotoViewController.swift */,
+				0AAEE0FE1A11B028002177B5 /* FeedViewController.swift */,
 				0AAEE0E51A11AEE0002177B5 /* Images.xcassets */,
 				0AAEE0E71A11AEE0002177B5 /* LaunchScreen.xib */,
 				0AAEE0DC1A11AEE0002177B5 /* Supporting Files */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAEE0E11A11AEE0002177B5 /* ViewController.swift in Sources */,
+				0AAEE1011A11B707002177B5 /* PhotoViewController.swift in Sources */,
+				0AAEE0FF1A11B028002177B5 /* FeedViewController.swift in Sources */,
 				0AAEE0DF1A11AEE0002177B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PhotoViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
